@@ -1,20 +1,35 @@
 <?php
-//require_once("adatbazis.php");
-$sql = "";
+require_once("adatbazis.php");
 
-$leiras = "Az oldal pár mondatos leírása ...";
-$kulcsszavak = "kulcso1, kulcszo2 ";
-$menu = '<ul>
-			<li><a href="#" class="aktiv">Bemutatkozás</a></li>
-			<li><a href="#" >Kedvencek</a></li>
-			<li><a href="#" >Képgaléria</a></li>
-			<li><a href="#" >Kapcsolat</a></li>
-		 </ul>
-		';
-$menunev = "Bemutatkozás";
-$tartalom = " Lorem ipsum cococo";
+// menü összeállítása
+$sql = "SELECT id, alias, menunev 
+		FROM cms_tartalom
+		WHERE statusz = 1
+		ORDER BY sorrend ASC";
+$eredmeny =	mysqli_query($dbconn, $sql);
+
+$menu = "<ul>\n";
+	while ($sor = mysqli_fetch_assoc($eredmeny)) {
+		$menu.= "<li><a href=\"\">{$sor['menunev']}</a></li>\n";
+}
+$menu.= "</ul>\n";
+
+// Tartalom összeállítása
+$id = (isset($_GET['id'])) ? $_GET['id'] : 1;
+$sql = "SELECT menunev, tartalom, modositas, leiras, kulcsszavak
+		FROM cms_tartalom
+		WHERE id = {id}
+		LIMIT 1"; 
+
+$leiras = $sor['leiras'];
+$kulcsszavak = $sor['kulcsszavak'];
+$menunev = $sor['menunev'];
+$tartalom = $sor['tartalom'];
+
+// modulok kezelése
 $oldalsav = " ... ";
 
+// Sablonozó
 $sablon = file_get_contents("sablon.html");
 $sablon = str_replace("{{menu}}", $menu, $sablon);
 $sablon = str_replace("{{menunev}}", $menunev, $sablon);
