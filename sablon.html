@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="{{leiras}}">
+    <meta name="keywords" content="{{kulcsszavak}}">
+    <meta name="author" content="{{kontent}}">
+    <title>Z-CMS - {{menunev}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/alap.css" />
+    <link type="image/x-icon" rel="shortcut icon" href="index/favicon.png">
+</head>
+<body>
+   <div id="befoglalo"> 
+        <header id="fejlec">
+            <h1>Fejléc</h1>
+        </header>
+
+        <nav id="menu">
+            <ul>
+             {{menu}}
+            </ul>
+        </nav>
+
+        <aside id="oldalsav">
+            {{oldalsav}} 
+       </aside>
+
+        <main id="tartalom">
+            <h2>{{menunev}}</h2>
+            {{tartalom}}
+        </main>
+      
+        <footer id="lablec">
+            <small>MyCMS tartalomkezelő rendszer</small>
+        </footer>
+  </div>
+</body>
+</html>
