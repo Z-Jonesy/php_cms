@@ -1,3 +1,3 @@
 # php_cms
-Saját tartlaomkezelő rendszer
+Saját tartalomkezelő rendszer
 Jelszóval védett admin felület
