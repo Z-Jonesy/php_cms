@@ -15,16 +15,29 @@ $menu = "<ul>\n";
 $menu.= "</ul>\n";
 
 // Tartalom összeállítása
-$id = (isset($_GET['id'])) ? $_GET['id'] : 1;
-$sql = "SELECT menunev, tartalom, modositas, leiras, kulcsszavak
+$id = (isset($_GET['id'])) ? (int)$_GET['id'] : 1;
+$sql = "SELECT menunev, tartalom, modositas, leiras, kulcsszavak, letrehozas
 		FROM cms_tartalom
-		WHERE id = {id}
+		WHERE id = {$id}
 		LIMIT 1"; 
+$eredmeny =	mysqli_query($dbconn, $sql);
 
-$leiras = $sor['leiras'];
-$kulcsszavak = $sor['kulcsszavak'];
-$menunev = $sor['menunev'];
-$tartalom = $sor['tartalom'];
+// Érvényes tartalom
+if (mysqli_num_rows($eredmeny) == 1) {
+		$sor = mysqli_fetch_assoc($eredmeny);
+
+		$leiras = $sor['leiras'];
+		$kulcsszavak = $sor['kulcsszavak'];
+		$menunev = $sor['menunev'];
+		$tartalom = $sor['tartalom'];
+		$letrehozas = $sor['letrehozas'];
+} else {
+	$leiras = "";
+	$kulcsszavak = "";
+	$menunev = "Hiba";
+	$tartalom = "<p><em>A keresett oldal nem található ... </em></p>";
+	$tartalom = date("Y-m-d H-i-s");
+}
 
 // modulok kezelése
 $oldalsav = " ... ";
