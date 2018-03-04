@@ -1,4 +1,5 @@
 <?php
+// print_r($_GET);
 require_once("adatbazis.php");
 
 // menü összeállítása
@@ -10,15 +11,15 @@ $eredmeny =	mysqli_query($dbconn, $sql);
 
 $menu = "<ul>\n";
 	while ($sor = mysqli_fetch_assoc($eredmeny)) {
-		$menu.= "<li><a href=\"\">{$sor['menunev']}</a></li>\n";
+		$menu.= "<li><a href=\"./{$sor['alias']}\">{$sor['menunev']}</a></li>\n";
 }
 $menu.= "</ul>\n";
 
 // Tartalom összeállítása
-$id = (isset($_GET['id'])) ? (int)$_GET['id'] : 1;
+$alias = (isset($_GET['alias'])) ? $_GET['alias'] : "bemutatkozas";
 $sql = "SELECT menunev, tartalom, modositas, leiras, kulcsszavak, letrehozas
 		FROM cms_tartalom
-		WHERE id = {$id}
+		WHERE alias = '{$alias}'
 		LIMIT 1"; 
 $eredmeny =	mysqli_query($dbconn, $sql);
 
@@ -50,6 +51,7 @@ $sablon = str_replace("{{tartalom}}", $tartalom, $sablon);
 $sablon = str_replace("{{oldalsav}}", $oldalsav, $sablon);
 $sablon = str_replace("{{leiras}}", $leiras, $sablon);
 $sablon = str_replace("{{kulcsszavak}}", $kulcsszavak, $sablon);
+$sablon = str_replace("{{letrehozas}}", $letrehozas, $sablon);
 
 print $sablon;
 ?>
