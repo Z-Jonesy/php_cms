@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Z-CMS-ADMIN - {{menunev}}</title>    
+    <link rel="stylesheet" type="text/css" media="screen" href="css/alap.css" />
+
+<!-- [if lt IE 9] > 
+ <script src="http://html5shiv.googlecode/svn/trunk/html5js"></script>
+
+<![endif]-->
+</head>
+<body>
+   <div id="befoglalo"> 
+        <header id="fejlec">
+            <h1>Fejléc</h1>
+        </header>
+
+        <nav id="menu">
+            <ul>
+             {{menu}}
+            </ul>
+        </nav>
+
+        <aside id="oldalsav">
+            {{oldalsav}} 
+       </aside>
+
+        <main id="tartalom">
+            <h2>{{menunev}}</h2>
+            {{tartalom}}
+            {{letrehozas}}
+        </main>
+      
+        <footer id="lablec">
+            <small>MyCMS tartalomkezelő rendszer</small>
+        </footer>
+  </div>
+</body>
+</html> 
