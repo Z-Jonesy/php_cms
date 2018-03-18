@@ -3,7 +3,24 @@ body {
 	font-family: Arial;
 	background-color: #ccc;
 }
-
+table {
+	border: solid 2px #000;
+	border-collapse: collapse;
+}
+tr:nth-child(2n) {
+	background-color: #eee;
+}
+tr:nth-child(2n+1) {
+	background-color: #fff;
+}
+th, td{
+	border: solid 1px #000;
+	padding: 5px;
+	font-size: 12px;
+}
+th {
+	background-color: #f00;
+}
 #befoglalo {
 	width: 960px;
 	margin: 20px auto;
@@ -58,6 +75,12 @@ body {
 }
 #tartalom p {
 	text-align: justify;
+}
+#tartalom a {
+	 color: #333;
+}
+#tartalom a:hover {
+	color: #666;
 }
 #oldalsav {
 	float: right;
