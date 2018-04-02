@@ -21,6 +21,9 @@ th, td{
 th {
 	background-color: #f00;
 }
+form #tartalom{
+	margin: 0;
+}
 #befoglalo {
 	width: 960px;
 	margin: 20px auto;
@@ -82,6 +85,7 @@ th {
 #tartalom a:hover {
 	color: #666;
 }
+
 #oldalsav {
 	float: right;
 	width: 200px;

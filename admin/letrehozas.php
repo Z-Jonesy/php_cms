@@ -1,9 +1,5 @@
-/**
-* Created by PhpStorm.
-* User: 1022699
-* Date: 2018. 03. 24.
-* Time: 10:23
-*/
+<?php
+$urlap = <<<URLAP
 <form method="post" action="">
     <h3>Új oldal létrehozása</h3>
     <p><label for="alias">Alias:</label><br>
@@ -28,13 +24,14 @@
 
 </form>
 
-<?php
+URLAP;
+
 // Sablonozó
 $sablon = file_get_contents("sablon.html");
-$sablon = str_replace("{{menu}}", $menu, $sablon);
+$sablon = str_replace("{{menu}}", "", $sablon);
 $sablon = str_replace("{{menunev}}", "Új oldal létrehozása", $sablon);
-$sablon = str_replace("{{tartalom}}", $tartalom, $sablon);
-$sablon = str_replace("{{oldalsav}}", $oldalsav, $sablon);
+$sablon = str_replace("{{tartalom}}", $urlap, $sablon);
+$sablon = str_replace("{{oldalsav}}", "", $sablon);
 print $sablon;
 
 ?>
