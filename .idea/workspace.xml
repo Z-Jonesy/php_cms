@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4c71d0b-6b33-47ac-9efd-49b7e34793bd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin/letrehozas.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="$PROJECT_DIR$/admin/letrehozas.php" afterPath="$PROJECT_DIR$/admin/letrehozas.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +20,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="1012">
+              <caret line="46" column="23" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="55" selection-end-column="14" />
               <folding>
-                <marker date="1521883314161" expanded="true" signature="87:176" ph="SELECT id, a... cms_tartalom" />
-                <marker date="1521883314161" expanded="true" signature="490:615" ph="SELECT menun... cms_tartalom" />
+                <marker date="1522693173868" expanded="true" signature="87:176" ph="SELECT id, a... cms_tartalom" />
+                <marker date="1522693173868" expanded="true" signature="490:615" ph="SELECT menun... cms_tartalom" />
               </folding>
             </state>
           </provider>
@@ -36,13 +35,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1521882516911" expanded="true" signature="49:189" ph="SELECT id, a... cms_tartalom" />
-                <marker date="1521882516911" expanded="true" signature="340:510" ph="..." />
-                <marker date="1521882516911" expanded="true" signature="349:508" ph="..." />
-                <marker date="1521882516911" expanded="true" signature="591:1020" ph="..." />
-                <marker date="1521882516911" expanded="true" signature="809:1006" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,8 +43,8 @@
       <file leaf-file-name="letrehozas.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/letrehozas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="693">
+              <caret line="34" column="58" lean-forward="false" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -114,8 +107,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,21 +148,23 @@
       <workItem from="1521123136094" duration="40000" />
       <workItem from="1521123240612" duration="26000" />
       <workItem from="1521882734991" duration="965000" />
+      <workItem from="1522693591191" duration="359000" />
+      <workItem from="1522690402928" duration="83000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1489000" />
+    <option name="totallyTimeSpent" value="1931000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18960468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -198,55 +193,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1012">
+          <caret line="46" column="23" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="55" selection-end-column="14" />
           <folding>
-            <marker date="1521883314161" expanded="true" signature="87:176" ph="SELECT id, a... cms_tartalom" />
-            <marker date="1521883314161" expanded="true" signature="490:615" ph="SELECT menun... cms_tartalom" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1521883314161" expanded="true" signature="87:176" ph="SELECT id, a... cms_tartalom" />
-            <marker date="1521883314161" expanded="true" signature="490:615" ph="SELECT menun... cms_tartalom" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1521883314161" expanded="true" signature="87:176" ph="SELECT id, a... cms_tartalom" />
-            <marker date="1521883314161" expanded="true" signature="490:615" ph="SELECT menun... cms_tartalom" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1521883314161" expanded="true" signature="87:176" ph="SELECT id, a... cms_tartalom" />
-            <marker date="1521883314161" expanded="true" signature="490:615" ph="SELECT menun... cms_tartalom" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <marker date="1521883314161" expanded="true" signature="87:176" ph="SELECT id, a... cms_tartalom" />
-            <marker date="1521883314161" expanded="true" signature="490:615" ph="SELECT menun... cms_tartalom" />
+            <marker date="1522693173868" expanded="true" signature="87:176" ph="SELECT id, a... cms_tartalom" />
+            <marker date="1522693173868" expanded="true" signature="490:615" ph="SELECT menun... cms_tartalom" />
           </folding>
         </state>
       </provider>
@@ -255,13 +206,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/letrehozas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding>
-            <marker date="1521882516911" expanded="true" signature="49:189" ph="SELECT id, a... cms_tartalom" />
-            <marker date="1521882516911" expanded="true" signature="340:510" ph="..." />
-            <marker date="1521882516911" expanded="true" signature="349:508" ph="..." />
-            <marker date="1521882516911" expanded="true" signature="591:1020" ph="..." />
-            <marker date="1521882516911" expanded="true" signature="809:1006" ph="..." />
+            <marker date="1522693173868" expanded="true" signature="87:176" ph="SELECT id, a... cms_tartalom" />
+            <marker date="1522693173868" expanded="true" signature="490:615" ph="SELECT menun... cms_tartalom" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/szerkesztes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -270,6 +242,91 @@
         <state relative-caret-position="176">
           <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1522693173868" expanded="true" signature="87:176" ph="SELECT id, a... cms_tartalom" />
+            <marker date="1522693173868" expanded="true" signature="490:615" ph="SELECT menun... cms_tartalom" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1522693173868" expanded="true" signature="87:176" ph="SELECT id, a... cms_tartalom" />
+            <marker date="1522693173868" expanded="true" signature="490:615" ph="SELECT menun... cms_tartalom" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1522693173868" expanded="true" signature="87:176" ph="SELECT id, a... cms_tartalom" />
+            <marker date="1522693173868" expanded="true" signature="490:615" ph="SELECT menun... cms_tartalom" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1522693173868" expanded="true" signature="87:176" ph="SELECT id, a... cms_tartalom" />
+            <marker date="1522693173868" expanded="true" signature="490:615" ph="SELECT menun... cms_tartalom" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/szerkesztes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/letrehozas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="34" column="58" lean-forward="false" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/sablon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sablon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="23" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="55" selection-end-column="14" />
+          <folding>
+            <marker date="1522693173868" expanded="true" signature="87:176" ph="SELECT id, a... cms_tartalom" />
+            <marker date="1522693173868" expanded="true" signature="490:615" ph="SELECT menun... cms_tartalom" />
+          </folding>
         </state>
       </provider>
     </entry>
